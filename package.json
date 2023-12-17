@@ -15,6 +15,7 @@
     "start": "WATCHPACK_POLLING=true react-scripts start",
     "build": "react-scripts build",
     "test": "WATCHPACK_POLLING=true react-scripts test",
+    "test:ci": "CI=true react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
